@@ -1,15 +1,9 @@
 import styled from '@emotion/styled'
 
-import { breakpoints } from '../utils/styles'
-
 export const Featured = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
-  
-    @media (max-width: ${breakpoints.s}px){
-      grid-template-columns: repeat(1, 1fr);
-    }
 `
 export const Background = styled.div`
     background-image: url(mask_homepage.jpg);
@@ -134,45 +128,3 @@ export const Links = styled.div`
     text align: bottom;
     margin-top: 5rem;
 `
-
-/* export const ProtectSelf = styled.div`
-    background-color: white;
-    border: 2px solid #d1d1e0;
-    width: 15%;
-    padding: 10px;
-    text-align: center;
-    margin: auto;
-`
-export const ProtectSelfText = styled.div`
-    background-color: white;
-    //width: 50%;
-    padding: 10px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-    font-family: Arial;
-    letter-spacing: 2px;
-`
-export const ProtectOthers = styled.div`
-    background-color: white;
-    border: 2px solid #d1d1e0;
-    width: 15%;
-    padding: 10px;
-    text-align: right;
-    float: right;
-`
-
-export const ProtectOthersText = styled.div`
-    background-color: white;
-    //width: 15%;
-    padding: 10px;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: center;
-    font-family: Arial;
-    letter-spacing: 2px;
-` */
-
-

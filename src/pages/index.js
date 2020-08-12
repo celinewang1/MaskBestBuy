@@ -52,29 +52,7 @@ const IndexPage = () => {
         <br></br>
         - One Size Fits Most:  These masks were not designed to fully seal against the face.  As long as the masks cover from the bridge of the nose to the bottom of the chin, they will provide excellent protection.</SecondGridItem2>
       </SecondGridContainer>
-      {/* <HeroImage3Buttons>
-      <HeroImageButton type="button"><HeroImageText>Protect Your Family</HeroImageText></HeroImageButton>
-      <HeroImageButton type="button"><HeroImageText>Protect Yourself</HeroImageText></HeroImageButton>
-      <HeroImageButton type="button"><HeroImageText>Protect Others</HeroImageText></HeroImageButton>
-      </HeroImage3Buttons> */}
     </Hero>
-
-{/* 
-    <Hero>
-    <Title> Masks For All </Title>
-    <p>Protect Your Family, Protect Yourself, Protect Others.</p>
-    
-    <br></br>
-    <br></br>
-    <br></br>
-    
-    <body>
-    <center><Link to="/face-masks/">
-      <button type="submit" onclick="location.href='file:///Users/celinewang/Documents/github/gatsby-shopify-starter/src/pages/homepage.html'">
-      View Masks</button></Link></center>
-    </body>
-    </Hero>
-    <br></br> */}
     
     <Links>
       <Link to="/face-masks/">Face Masks</Link>
