@@ -30,8 +30,8 @@ export const ImageButtonsGridItem = styled.button`
 export const SecondGridContainer = styled.div`
     display: grid;
 
-    grid-template-areas: 'area1 area2'
-                        'area1 area3';
+    grid-template-areas: 'SecondGridItem1 SecondGridItem2'
+                         'SecondGridItem1 SecondGridItem3';
     margin-top: 6rem;
     grid-gap: 10px;
     background-color: #2196F3;
