@@ -17,9 +17,8 @@ export const ImageButtonsGridItem = styled.button`
     letter-spacing: 1px;
     text-transform: uppercase;
 `
-export const SecondGridContainer = styled.div`
+export const TextImageGridContainer = styled.div`
     display: grid;
-
     grid-template-areas: 'area1 area2'
                         'area1 area3';
     margin-top: 6rem;
@@ -28,7 +27,7 @@ export const SecondGridContainer = styled.div`
     padding: 10px;
 `
 
-export const SecondGridItem1 = styled.div`
+export const TextImageGridTitle = styled.div`
     font-size: 27px;
     font-style: normal;
     font-weight: 300;
@@ -36,7 +35,7 @@ export const SecondGridItem1 = styled.div`
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
 `
-export const SecondGridItem2 = styled.div`
+export const TextImageGridBody = styled.div`
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -44,7 +43,7 @@ export const SecondGridItem2 = styled.div`
     line-height: 1.6;
     background-color: rgba(255, 255, 255, 0.8);
 `
-export const SecondGridItem3 = styled.div`
+export const TextImageGridPic = styled.div`
     background-color: rgba(255, 255, 255, 0.8);
 `
 export const Hero = styled.div`
@@ -103,7 +102,6 @@ export const HeroImageButton = styled.div`
 `
 export const HeroImageText = styled.div`
     background-color: white;
-    //width: 15%;
     padding: 10px;
     font-size: 13px;
     font-style: normal;

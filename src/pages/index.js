@@ -5,10 +5,10 @@ import {
   LargeButton,
   ImageButtonsGridContainer,
   ImageButtonsGridItem,
-  SecondGridContainer,
-  SecondGridItem1,
-  SecondGridItem2,
-  SecondGridItem3,
+  TextImageGridContainer,
+  TextImageGridTitle,
+  TextImageGridBody,
+  TextImageGridPic,
   Title,
   Links
 } from './styles'
@@ -21,9 +21,9 @@ const IndexPage = () => {
 
     <Hero>
       <Title>Masks For All</Title>
-       <center><Link to="/face-masks/">
+      <Link to="/face-masks/">
      <LargeButton>BUY MASKS</LargeButton>
-      </Link></center>
+      </Link>
 
       <ImageButtonsGridContainer>
         <ImageButtonsGridItem>Protect Your Family</ImageButtonsGridItem>
@@ -31,21 +31,16 @@ const IndexPage = () => {
         <ImageButtonsGridItem>Protect Others</ImageButtonsGridItem>
       </ImageButtonsGridContainer>
 
-      <SecondGridContainer>
-        <SecondGridItem3>Hello</SecondGridItem3>
-        <SecondGridItem1>Our Masks</SecondGridItem1>
-        <SecondGridItem2>We supply Level 2 medical face masks worn by doctors, nurses, and medical professionals.  These masks are now available to the general public.  
-        <br></br>
-        - ASTM Level 2 Rated Medical Face Masks
-        <br></br>
-        - Bacteria Filtration Efficiency Greater Than 99%
-        <br></br>
-        - Particulate Filtration Efficiency Greater Than 99%
-        <br></br>
-        - 3-Ply / 3 Layer Design:  Liquid Resistance Layer, Flame & Filtration Layer, and soft Inner Layer for comfort.
-        <br></br>
-        - One Size Fits Most:  These masks were not designed to fully seal against the face.  As long as the masks cover from the bridge of the nose to the bottom of the chin, they will provide excellent protection.</SecondGridItem2>
-      </SecondGridContainer>
+      <TextImageGridContainer>
+        <TextImageGridPic>Hello</TextImageGridPic>
+        <TextImageGridTitle>Our Masks</TextImageGridTitle>
+        <TextImageGridBody>We supply Level 2 medical face masks worn by doctors, nurses, and medical professionals.  These masks are now available to the general public.<br/>
+        - ASTM Level 2 Rated Medical Face Masks<br/>
+        - Bacteria Filtration Efficiency Greater Than 99%<br/>
+        - Particulate Filtration Efficiency Greater Than 99%<br/>
+        - 3-Ply / 3 Layer Design:  Liquid Resistance Layer, Flame & Filtration Layer, and soft Inner Layer for comfort.<br/>
+        - One Size Fits Most:  These masks were not designed to fully seal against the face.  As long as the masks cover from the bridge of the nose to the bottom of the chin, they will provide excellent protection.</TextImageGridBody>
+      </TextImageGridContainer>
     </Hero>
 
     <Links>
