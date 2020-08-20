@@ -32,7 +32,7 @@ const IndexPage = () => {
       </ImageButtonsGridContainer>
 
       <SecondGridContainer>
-        <SecondGridItem3>hello</SecondGridItem3>
+        <SecondGridItem3>Hello</SecondGridItem3>
         <SecondGridItem1>Our Masks</SecondGridItem1>
         <SecondGridItem2>We supply Level 2 medical face masks worn by doctors, nurses, and medical professionals.  These masks are now available to the general public.  
         <br></br>
