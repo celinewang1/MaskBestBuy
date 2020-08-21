@@ -111,7 +111,6 @@ export const HeroImageText = styled.div`
     text-align: center;
     font-family: Arial;
     letter-spacing: 2px;
-
 `
 
 export const Links = styled.div`
