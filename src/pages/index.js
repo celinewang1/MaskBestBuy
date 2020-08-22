@@ -45,16 +45,9 @@ const IndexPage = () => {
 
     <Links>
       <Link to="/face-masks/">Face Masks</Link>
-      <br></br>
       <Link to="/about-us/">About Us</Link>
-      <br></br>
       <Link to="/FAQ/">FAQ</Link>
-      <br></br>
       <Link to="/wear-mask/">How To Wear A Mask</Link>
-      <br></br>
-      <Link to="/anotherPage/">Another Page</Link>
-      <br></br>
-      <Link to="/counter/">Counter</Link>
     </Links>
   </>
   )

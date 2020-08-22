@@ -113,7 +113,11 @@ export const HeroImageText = styled.div`
 `
 
 export const Links = styled.div`
+    display: grid;
     text align: bottom;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    grid-template-rows: auto auto auto auto;
+    line-height: 1.8;
 `
 
